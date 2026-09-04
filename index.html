@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohan M — UI/UX Designer & Product Creator</title>
+  <meta name="description" content="Portfolio of Mohan M, a UI/UX designer and tech enthusiast based in Chennai, India. Crafting clean, intuitive, and modern digital experiences for healthcare, SaaS, hospitality, and startups.">
+  <meta name="keywords" content="Mohan M, UI UX Designer Chennai, Portfolio, Wall of Portfolios, Web Design, Figma, Product Designer">
+  <meta property="og:title" content="Mohan M — UI/UX Designer Portfolio">
+  <meta property="og:description" content="Clear, useful design for products people actually enjoy using. Based in Chennai, India.">
+  <meta property="og:image" content="assets/images/mohan-portrait.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Google Fonts: Space Grotesk & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Top Floating Header Bar -->
+  <header class="site-header">
+    <a href="#top" class="brand-badge">
+      <div class="brand-logo-icon">M</div>
+      <span>Mohan M</span>
+    </a>
+
+    <div class="header-actions">
+      <!-- Tactile Sound Effects Toggle -->
+      <button id="sound-toggle-btn" class="icon-btn-header sound-active" aria-label="Toggle Sound Effects" title="Toggle Tactile UI Sound">
+        <!-- SVG injected by js/app.js -->
+      </button>
+
+      <!-- Theme Switcher (Dark / Light) -->
+      <button id="theme-toggle-btn" class="icon-btn-header" aria-label="Toggle Dark / Light Theme" title="Toggle Theme">
+        <!-- SVG injected by js/app.js -->
+      </button>
+
+      <a href="https://wa.me/919629485076" target="_blank" rel="noopener" class="btn-dock-whatsapp hide-on-mobile" style="padding: 8px 18px; font-size: 0.84rem; border-radius: 999px; display: inline-flex; align-items: center; gap: 7px;">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+
+      <button id="mobile-menu-toggle" class="icon-btn-header mobile-menu-toggle" aria-label="Open Navigation">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div id="top"></div>
+
+  <!-- Master Page Grid: Left Dock + Right Canvas -->
+  <div class="page-wrapper">
+
+    <!-- ====================================================================
+         LEFT STICKY PROFILE DOCK (Wall of Portfolios Style)
+         ==================================================================== -->
+    <aside class="sidebar-dock" id="sidebar-dock">
+      <div class="profile-card-top">
+        <div class="avatar-wrapper" data-tilt>
+          <img src="assets/images/mohan-portrait.jpg" alt="Mohan M" class="avatar-img">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Open to Work</span>
+          </div>
+        </div>
+
+        <h1 class="profile-name">Mohan M</h1>
+        <div class="profile-handle">
+          <span>@designs_of_mohan</span>
+        </div>
+
+        <div class="location-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Chennai, India</span>
+        </div>
+
+        <p class="role-tagline">
+          <strong>UI/UX Designer</strong> • Electronics & Communication Engineering
+        </p>
+
+        <!-- Wall of Portfolios Bookmark Button -->
+        <button id="dock-bookmark-btn" class="bookmark-trigger-btn" style="margin-top: 14px;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+          <span>Bookmark Portfolio</span>
+        </button>
+
+        <!-- Primary Action Buttons in Dock -->
+        <div class="dock-cta-grid">
+          <button class="btn-dock btn-dock-whatsapp open-wa-modal-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            <span>WhatsApp</span>
+          </button>
+
+          <a href="mailto:mohanjothi2009@gmail.com" class="btn-dock btn-dock-primary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Email</span>
+          </a>
+
+          <button class="btn-dock btn-dock-secondary copy-email-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy: mohanjothi2009@gmail.com</span>
+          </button>
+        </div>
+
+        <!-- Dock Navigation Links -->
+        <ul class="dock-nav-list">
+          <li class="dock-nav-item"><a href="#work"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>Selected Work</a></li>
+          <li class="dock-nav-item"><a href="#about"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>Know Mohan (Story)</a></li>
+          <li class="dock-nav-item"><a href="#skills"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>Skills & Toolkit</a></li>
+          <li class="dock-nav-item"><a href="#experience"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>Education & Exp</a></li>
+          <li class="dock-nav-item"><a href="#contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Direct Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Dock Professional Status Indicator -->
+      <div class="dock-status-card">
+        <span class="status-dot"></span>
+        <span><strong>Fast Response</strong> • Online & Available for Work</span>
+      </div>
+    </aside>
+
+    <!-- ====================================================================
+         MAIN CONTENT CANVAS (Right Panel)
+         ==================================================================== -->
+    <main class="main-canvas">
+
+      <!-- HERO SECTION -->
+      <section class="hero-card" id="hero">
+        <div class="hero-left">
+          <div class="hero-badge-row">
+            <span class="hero-badge">
+              <span class="status-dot"></span>
+              Available for Freelance & Projects
+            </span>
+            <span class="hero-badge">
+              Past Freelance UX
+            </span>
+            <span class="hero-badge">
+              Figma & AI Stack
+            </span>
+          </div>
+
+          <h1 class="hero-headline">
+            Clear, useful design for products people <span class="text-gradient">actually enjoy using.</span>
+          </h1>
+
+          <p class="hero-description">
+            I'm <strong>Mohan</strong> — a product-focused UI/UX designer and tech enthusiast based in <strong>Chennai, India</strong>. I turn complex ideas into intuitive interfaces, combining human empathy with modern design systems and AI-assisted workflows for healthcare, SaaS, hospitality, and startups.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn-primary">
+              <span>Explore Selected Work</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+
+            <button class="btn-secondary open-wa-modal-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#25D366"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              <span>Chat on WhatsApp</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- High-contrast User Portrait Card -->
+        <div class="hero-photo-card" data-tilt>
+          <img src="assets/images/mohan-portrait.jpg" alt="Mohan M Portrait">
+          <div class="photo-badge-overlay">
+            <span>Mohan M</span>
+            <span style="color: var(--accent-green); font-weight: 600;">Chennai, India</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- INFINITE MARQUEE TICKER -->
+      <div class="marquee-container">
+        <div class="marquee-content">
+          <div class="marquee-item"><span>UI/UX DESIGN</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>DESIGN SYSTEMS</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>FIGMA TOKENS</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>WIREFRAMING & IA</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>INTERACTIVE PROTOTYPING</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>USER RESEARCH</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>CHENNAI, INDIA</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>SAAS DASHBOARDS</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>HIGH CONVERSION LANDING PAGES</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>AI-AUGMENTED UX</span><span class="marquee-star">✦</span></div>
+          <!-- Duplicate set for seamless loop -->
+          <div class="marquee-item"><span>UI/UX DESIGN</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>DESIGN SYSTEMS</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>FIGMA TOKENS</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>WIREFRAMING & IA</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>INTERACTIVE PROTOTYPING</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>USER RESEARCH</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>CHENNAI, INDIA</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>SAAS DASHBOARDS</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>HIGH CONVERSION LANDING PAGES</span><span class="marquee-star">✦</span></div>
+          <div class="marquee-item"><span>AI-AUGMENTED UX</span><span class="marquee-star">✦</span></div>
+        </div>
+      </div>
+
+      <!-- METRICS ROW -->
+      <div class="metrics-row">
+        <div class="metric-box">
+          <div class="metric-num">0–2 Yrs</div>
+          <div class="metric-label">Independent & Freelance</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-num">6+</div>
+          <div class="metric-label">Shipped Design Projects</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-num">3</div>
+          <div class="metric-label">Tech Industry Internships</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-num">< 2 Hrs</div>
+          <div class="metric-label">Average Response Time</div>
+        </div>
+      </div>
+
+      <!-- ====================================================================
+           SELECTED WORK / PROJECTS (With Designed Images & Filter Pills)
+           ==================================================================== -->
+      <section class="content-section" id="work">
+        <div class="section-header-row">
+          <div>
+            <h2 class="section-title">Selected work</h2>
+            <p class="section-subtitle">Six independent projects featuring designed user interfaces across healthcare, luxury hospitality, SaaS, EdTech, and startup branding.</p>
+          </div>
+          <button class="btn-secondary open-wa-modal-btn" style="font-size: 0.86rem; padding: 10px 20px;">
+            <span>Discuss a Project</span>
+          </button>
+        </div>
+
+        <!-- Project Category Filter Pills -->
+        <div class="projects-filter-bar">
+          <button class="filter-pill active" data-filter="all">All Projects (6)</button>
+          <button class="filter-pill" data-filter="healthcare">Healthcare</button>
+          <button class="filter-pill" data-filter="saas">SaaS & Dashboard</button>
+          <button class="filter-pill" data-filter="hospitality">Hospitality</button>
+          <button class="filter-pill" data-filter="edtech">EdTech</button>
+          <button class="filter-pill" data-filter="landing">Landing Pages</button>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: SmileCare Dental Clinic -->
+          <article class="project-card" data-category="healthcare">
+            <div class="project-preview-frame">
+              <img src="assets/images/projects/smilecare.jpg" alt="SmileCare Dental Clinic Mockup" class="project-mockup-img">
+              <div class="project-overlay-badge">Live Case Study</div>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Healthcare Website & Booking</span>
+              <h3 class="project-title">SmileCare Dental Clinic</h3>
+              <p class="project-summary">
+                A trustworthy, accessibility-first dental clinic website engineered to alleviate patient anxiety with doctor credentials, transparent treatment pricing, and a smooth 3-step appointment booking flow.
+              </p>
+              <div class="project-footer">
+                <div class="tech-tags">
+                  <span class="tech-tag">UI/UX</span>
+                  <span class="tech-tag">Figma</span>
+                  <span class="tech-tag">Booking Flow</span>
+                </div>
+                <button class="btn-view-study" data-study-id="smilecare">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: LuxeStay Hotel -->
+          <article class="project-card" data-category="hospitality">
+            <div class="project-preview-frame">
+              <img src="assets/images/projects/luxestay.jpg" alt="LuxeStay Hotel UI Mockup" class="project-mockup-img">
+              <div class="project-overlay-badge">Editorial Design</div>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Hospitality & Luxury Booking</span>
+              <h3 class="project-title">LuxeStay Hotel — The Aurora Suites</h3>
+              <p class="project-summary">
+                A luxury hotel web experience covering suite discovery, amenity showcases, 360 gallery tours, and an omnipresent sticky reservation bar designed for effortless conversion.
+              </p>
+              <div class="project-footer">
+                <div class="tech-tags">
+                  <span class="tech-tag">Design System</span>
+                  <span class="tech-tag">Editorial UI</span>
+                  <span class="tech-tag">Framer</span>
+                </div>
+                <button class="btn-view-study" data-study-id="luxestay">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: TaskFlow -->
+          <article class="project-card" data-category="saas">
+            <div class="project-preview-frame">
+              <img src="assets/images/projects/taskflow.jpg" alt="TaskFlow SaaS Dashboard Mockup" class="project-mockup-img">
+              <div class="project-overlay-badge">SaaS Product</div>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Micro-SaaS Web App</span>
+              <h3 class="project-title">TaskFlow Productivity Dashboard</h3>
+              <p class="project-summary">
+                A lightweight productivity dashboard designed for agile teams, featuring keyboard-first interactions, customizable Kanban pipelines, sprint velocity analytics, and dark mode.
+              </p>
+              <div class="project-footer">
+                <div class="tech-tags">
+                  <span class="tech-tag">SaaS UX</span>
+                  <span class="tech-tag">Kanban</span>
+                  <span class="tech-tag">Design Thinking</span>
+                </div>
+                <button class="btn-view-study" data-study-id="taskflow">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: EduSpark -->
+          <article class="project-card" data-category="edtech">
+            <div class="project-preview-frame">
+              <img src="assets/images/projects/eduspark.jpg" alt="EduSpark Learning Platform Mockup" class="project-mockup-img">
+              <div class="project-overlay-badge">EdTech Platform</div>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">EdTech Platform</span>
+              <h3 class="project-title">EduSpark Interactive Learning Portal</h3>
+              <p class="project-summary">
+                An interactive online learning experience mapping out student pathways from onboarding to course completion with gamified milestones, live code split-screen, and progress rings.
+              </p>
+              <div class="project-footer">
+                <div class="tech-tags">
+                  <span class="tech-tag">Gamification</span>
+                  <span class="tech-tag">User Flows</span>
+                  <span class="tech-tag">Prototyping</span>
+                </div>
+                <button class="btn-view-study" data-study-id="eduspark">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Personal Portfolio -->
+          <article class="project-card" data-category="landing">
+            <div class="project-preview-frame">
+              <img src="assets/images/projects/portfolio.jpg" alt="Mohan M Portfolio Mockup" class="project-mockup-img">
+              <div class="project-overlay-badge">Personal Brand</div>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Brand & Motion Architecture</span>
+              <h3 class="project-title">Mohan M Creative Portfolio System</h3>
+              <p class="project-summary">
+                An editorial-grade personal portfolio built to test high-contrast visual storytelling, silent lead alerts, instant WhatsApp messaging, and playful micro-interactions.
+              </p>
+              <div class="project-footer">
+                <div class="tech-tags">
+                  <span class="tech-tag">Vanilla JS</span>
+                  <span class="tech-tag">Sound FX</span>
+                  <span class="tech-tag">Wall of Portfolios</span>
+                </div>
+                <button class="btn-view-study" data-study-id="portfolio">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Startup Landing Page -->
+          <article class="project-card" data-category="landing">
+            <div class="project-preview-frame">
+              <img src="assets/images/projects/startup.jpg" alt="Aether AI Startup Landing Page Mockup" class="project-mockup-img">
+              <div class="project-overlay-badge">AI Tech Startup</div>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Startup Landing Page</span>
+              <h3 class="project-title">Aether AI — NextGen Tech Landing Page</h3>
+              <p class="project-summary">
+                A high-converting landing page for an emerging AI startup structured around the AIDA framework, with neon holographic aesthetics, interactive feature tabs, and a sub-second waitlist flow.
+              </p>
+              <div class="project-footer">
+                <div class="tech-tags">
+                  <span class="tech-tag">Conversion Rate</span>
+                  <span class="tech-tag">Wireframing</span>
+                  <span class="tech-tag">Visual Identity</span>
+                </div>
+                <button class="btn-view-study" data-study-id="startup">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           "KNOW MOHAN" STORY SECTION (Inspired by Aryan's "Know Him")
+           ==================================================================== -->
+      <section class="content-section" id="about">
+        <div class="section-header-row">
+          <div>
+            <h2 class="section-title">Know Mohan</h2>
+            <p class="section-subtitle">Beyond the resume — my background, my design philosophy, and what fuels my curiosity.</p>
+          </div>
+        </div>
+
+        <div class="story-container">
+          <!-- Story Main Narrative -->
+          <div class="story-card-main">
+            <p class="story-lead">
+              "I didn't take the traditional design school route. I study Electronics & Communication Engineering at MPNMJ Engineering College — but the moment I designed my first user interface, I was hooked."
+            </p>
+
+            <p class="story-body-text">
+              Engineering taught me first-principles thinking, systematic problem-solving, and how to analyze complex constraints. UI/UX design gave me the creative canvas to turn that technical logic into empathy, clarity, and visual joy for everyday users.
+            </p>
+
+            <div class="story-quote-box">
+              "The best interfaces are the ones you never have to think about. They feel completely obvious in hindsight."
+            </div>
+
+            <p class="story-body-text">
+              Right now, I spend my time balancing coursework with independent freelance projects and exploring how AI tools (like Claude, Midjourney, v0, and Cursor) can augment human design decisions — accelerating wireframes and prototypes without losing sight of user research and accessibility.
+            </p>
+
+            <div style="display: flex; gap: 12px; margin-top: 10px; flex-wrap: wrap;">
+              <a href="https://instagram.com/designs_of_mohan" target="_blank" rel="noopener" class="btn-secondary" style="font-size: 0.88rem; padding: 10px 18px;">
+                <span>Follow on Instagram @designs_of_mohan</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Story Pillars (Inspired by Aryan's My Craft / Fuel / Guide) -->
+          <div class="story-pillars-grid">
+
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <div class="pillar-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/></svg>
+                </div>
+                <h3 class="pillar-title">My Craft</h3>
+              </div>
+              <p class="pillar-desc">
+                High-fidelity prototyping, atomic component architecture in Figma, obsessive type spacing, and micro-interactions that make a digital product feel alive.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <div class="pillar-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+                </div>
+                <h3 class="pillar-title">My Fuel</h3>
+              </div>
+              <p class="pillar-desc">
+                Lo-fi and indie-pop playlists while designing, dissecting new apps on Product Hunt, exploring Tamil Nadu tech ecosystems, and continuous learning.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <div class="pillar-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                </div>
+                <h3 class="pillar-title">My Guide</h3>
+              </div>
+              <p class="pillar-desc">
+                Human-centered psychology, Jakob's Law, WCAG accessibility benchmarks, and Don Norman's core tenets of feedback, affordance, and mental models.
+              </p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <div class="pillar-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                </div>
+                <h3 class="pillar-title">My AI Workflow</h3>
+              </div>
+              <p class="pillar-desc">
+                Leveraging generative AI as a design amplifier — creating moodboards, testing copy variations, and generating interactive prototypes faster than ever before.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           SKILLS & TOOLKIT MATRIX
+           ==================================================================== -->
+      <section class="content-section" id="skills">
+        <div class="section-header-row">
+          <div>
+            <h2 class="section-title">Skills & toolkit</h2>
+            <p class="section-subtitle">What I use day to day, from initial discovery sketches to shipped interfaces.</p>
+          </div>
+        </div>
+
+        <div class="skills-categories">
+
+          <div class="skill-box">
+            <h3 class="skill-box-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              <span>UI/UX Design</span>
+            </h3>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">UI Design</span>
+              <span class="skill-chip">UX Research</span>
+              <span class="skill-chip">Wireframing</span>
+              <span class="skill-chip">Interactive Prototyping</span>
+              <span class="skill-chip">User Journey Flows</span>
+              <span class="skill-chip">Design Systems</span>
+              <span class="skill-chip">Information Architecture</span>
+              <span class="skill-chip">Usability Testing</span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <h3 class="skill-box-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              <span>Design Tools</span>
+            </h3>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">Figma</span>
+              <span class="skill-chip">FigJam</span>
+              <span class="skill-chip">Framer</span>
+              <span class="skill-chip">Canva</span>
+              <span class="skill-chip">Adobe Photoshop</span>
+              <span class="skill-chip">Adobe Illustrator</span>
+              <span class="skill-chip">Miro</span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <h3 class="skill-box-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              <span>Development</span>
+            </h3>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">HTML5</span>
+              <span class="skill-chip">CSS3 & Grid</span>
+              <span class="skill-chip">JavaScript (ES6+)</span>
+              <span class="skill-chip">Tailwind CSS</span>
+              <span class="skill-chip">Responsive Web</span>
+              <span class="skill-chip">Basic React</span>
+              <span class="skill-chip">Git & GitHub</span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <h3 class="skill-box-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 12L2.1 12.05"/></svg>
+              <span>AI & Modern Stack</span>
+            </h3>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">Claude 3.5</span>
+              <span class="skill-chip">ChatGPT</span>
+              <span class="skill-chip">Google Gemini</span>
+              <span class="skill-chip">Midjourney</span>
+              <span class="skill-chip">Adobe Firefly</span>
+              <span class="skill-chip">v0 by Vercel</span>
+              <span class="skill-chip">Cursor IDE</span>
+              <span class="skill-chip">Relume</span>
+            </div>
+          </div>
+
+          <div class="skill-box" style="grid-column: span 2;">
+            <h3 class="skill-box-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+              <span>Core Strengths & Strategy</span>
+            </h3>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">UX Microcopy</span>
+              <span class="skill-chip">Design Thinking Workshops</span>
+              <span class="skill-chip">Brand Identity & Rebranding</span>
+              <span class="skill-chip">Visual Storytelling</span>
+              <span class="skill-chip">Rapid Prototyping</span>
+              <span class="skill-chip">Conversion Rate Optimization (CRO)</span>
+              <span class="skill-chip">Cross-Functional Team Collaboration</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           EDUCATION & EXPERIENCE TIMELINE
+           ==================================================================== -->
+      <section class="content-section" id="experience">
+        <div class="section-header-row">
+          <div>
+            <h2 class="section-title">Education & experience</h2>
+            <p class="section-subtitle">Formal engineering studies paired with technology internships and independent freelance projects.</p>
+          </div>
+        </div>
+
+        <div class="timeline-card">
+
+          <div class="timeline-item">
+            <div class="timeline-period">Ongoing</div>
+            <div>
+              <h3 class="timeline-role">B.E. Electronics & Communication Engineering</h3>
+              <div class="timeline-org">MPNMJ Engineering College</div>
+              <p class="timeline-desc">
+                Building strong analytical foundation in electronics and signal workflows, while simultaneously mastering digital product design, web architecture, and AI design tools.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-period">Internship</div>
+            <div>
+              <h3 class="timeline-role">Technology Intern</h3>
+              <div class="timeline-org">Tech Josh</div>
+              <p class="timeline-desc">
+                Gained practical exposure to technology development workflows, interface requirements gathering, and collaborative project deployment.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-period">Internship</div>
+            <div>
+              <h3 class="timeline-role">Technology Intern & Professional Course</h3>
+              <div class="timeline-org">Skill Dragon</div>
+              <p class="timeline-desc">
+                Completed hands-on practical coursework in digital technologies, web fundamentals, and user-centric problem analysis.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-period">Internship</div>
+            <div>
+              <h3 class="timeline-role">Technology Intern</h3>
+              <div class="timeline-org">Cronic Techs</div>
+              <p class="timeline-desc">
+                Hands-on exposure working directly on real client technology requirements, visual asset structuring, and feature integration.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-period">Ongoing</div>
+            <div>
+              <h3 class="timeline-role">Independent UI/UX Designer</h3>
+              <div class="timeline-org">Freelance & Self-Directed Client Work</div>
+              <p class="timeline-desc">
+                Designing web experiences and brand identities for clinics, hotels, SaaS teams, and startups. Handling end-to-end design from research to developer-ready Figma tokens.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           WORKING WHATSAPP & DIRECT CONTACT HUB (Email Notifications)
+           ==================================================================== -->
+      <section class="content-section" id="contact">
+        <div class="contact-hub-card">
+
+          <!-- Left Details & Direct Links -->
+          <div class="contact-left">
+            <h2>Have a project in mind? Let's build it together.</h2>
+            <p>
+              I'm open for freelance UI/UX design projects, full-time roles, collaborations, and internship opportunities. Inquiries sent through this form reach my primary email directly.
+            </p>
+
+            <div class="contact-methods-list">
+
+              <!-- WhatsApp -->
+              <div class="contact-method-card">
+                <div class="method-left">
+                  <div class="method-icon-wrap icon-wa">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                  </div>
+                  <div class="method-info">
+                    <strong>WhatsApp Direct</strong>
+                    <span>+91 96294 85076</span>
+                  </div>
+                </div>
+                <button class="btn-action-small open-wa-modal-btn">Chat on WhatsApp</button>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-method-card">
+                <div class="method-left">
+                  <div class="method-icon-wrap icon-mail">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div class="method-info">
+                    <strong>Email Address</strong>
+                    <span>mohanjothi2009@gmail.com</span>
+                  </div>
+                </div>
+                <button class="btn-action-small copy-email-btn">Copy Email</button>
+              </div>
+
+              <!-- Instagram -->
+              <div class="contact-method-card">
+                <div class="method-left">
+                  <div class="method-icon-wrap icon-ig">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                  </div>
+                  <div class="method-info">
+                    <strong>Instagram Showcase</strong>
+                    <span>@designs_of_mohan</span>
+                  </div>
+                </div>
+                <a href="https://instagram.com/designs_of_mohan" target="_blank" rel="noopener" class="btn-action-small">Visit Profile</a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right Interactive Contact Form -->
+          <form id="main-contact-form" class="contact-form">
+            <div class="form-group">
+              <label>Select Project Topic</label>
+              <div class="topic-pills">
+                <button type="button" class="topic-pill-btn active" data-topic="UI/UX Design Project">UI/UX Project</button>
+                <button type="button" class="topic-pill-btn" data-topic="Website Rebranding">Rebranding</button>
+                <button type="button" class="topic-pill-btn" data-topic="Freelance / Contract">Freelance Work</button>
+                <button type="button" class="topic-pill-btn" data-topic="Internship / Role">Internship / Job</button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-name">Your Full Name</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="e.g. Rahul Verma" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Your Email Address</label>
+              <input type="email" id="contact-email" class="form-input" placeholder="e.g. rahul@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Your Message or Project Vision</label>
+              <textarea id="contact-message" class="form-textarea" placeholder="Tell Mohan about your timeline, project goals, or ideas..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="justify-content: center; width: 100%;">
+              <span>Send Message to Mohan</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </form>
+
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div>
+          <span>© 2026 Mohan M • UI/UX Designer</span>
+          <span style="margin-left: 14px; color: var(--text-secondary);">Chennai, India</span>
+        </div>
+        <div>
+          <span>Crafted with clean code & empathy • Modeled after Wall of Portfolios</span>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- ====================================================================
+       CASE STUDY MODAL (Detailed Project Deep Dive)
+       ==================================================================== -->
+  <div id="case-study-modal" class="modal-backdrop">
+    <div class="modal-box">
+      <button id="case-study-close-btn" class="modal-close-btn" aria-label="Close Modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div id="case-study-modal-body">
+        <!-- Dynamically populated with designed mockups by js/app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ====================================================================
+       WHATSAPP MESSAGE BUILDER MODAL
+       ==================================================================== -->
+  <div id="whatsapp-modal" class="modal-backdrop">
+    <div class="modal-box" style="max-width: 540px;">
+      <button id="whatsapp-modal-close" class="modal-close-btn" aria-label="Close WhatsApp Modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 20px;">
+        <div style="width: 46px; height: 46px; border-radius: 50%; background: #128C7E; display: flex; align-items: center; justify-content: center; color: #fff;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        </div>
+        <div>
+          <h3 style="font-size: 1.35rem;">Chat with Mohan on WhatsApp</h3>
+          <p style="font-size: 0.88rem; color: var(--text-muted);">Instant direct message to +91 96294 85076</p>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 14px;">
+        <label style="font-size: 0.82rem; font-weight: 600; color: var(--text-secondary); display: block; margin-bottom: 8px;">Quick Message Presets</label>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <button type="button" class="topic-pill-btn wa-preset-pill active" data-text="Hi Mohan, I saw your portfolio and would like to discuss a UI/UX project!">New Project</button>
+          <button type="button" class="topic-pill-btn wa-preset-pill" data-text="Hi Mohan, we have an open freelance / internship opportunity and loved your portfolio!">Hire / Internship</button>
+          <button type="button" class="topic-pill-btn wa-preset-pill" data-text="Hi Mohan, wanted to connect and chat about digital product design!">Design Chat</button>
+        </div>
+      </div>
+
+      <div class="form-group" style="margin-bottom: 20px;">
+        <label for="whatsapp-custom-text">Custom Message</label>
+        <textarea id="whatsapp-custom-text" class="form-textarea" style="min-height: 90px;">Hi Mohan, I saw your portfolio and would like to discuss a UI/UX project!</textarea>
+      </div>
+
+      <button id="send-wa-message-btn" class="btn-dock-whatsapp" style="width: 100%; padding: 13px; font-size: 0.96rem; border-radius: var(--radius-full); font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 8px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        <span>Open in WhatsApp</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ====================================================================
+       WALL OF PORTFOLIOS CELEBRATION MODAL (Bookmark Trigger)
+       ==================================================================== -->
+  <div id="celebration-modal" class="modal-backdrop">
+    <div class="modal-box" style="max-width: 500px; text-align: center;">
+      <button id="celebration-close-btn" class="modal-close-btn" aria-label="Close Celebration Modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="celebration-badge-container">
+        <div class="silver-badge-glow">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+
+        <h2 style="font-size: 1.65rem; margin-bottom: 8px;">Wall of Portfolios Showcase</h2>
+        <p style="color: var(--text-secondary); font-size: 0.96rem; line-height: 1.6; margin-bottom: 24px;">
+          "Only 30% of portfolios make it to the Wall — and this one is bookmarked!" 📸 Thank you for exploring Mohan M's work.
+        </p>
+
+        <div style="display: flex; flex-direction: column; gap: 10px; width: 100%;">
+          <button class="btn-dock-whatsapp open-wa-modal-btn" onclick="document.getElementById('celebration-modal').classList.remove('active'); window.playClickSound();" style="padding: 12px; border-radius: var(--radius-full); font-weight: 600;">
+            Chat with Mohan on WhatsApp
+          </button>
+
+          <button class="btn-secondary copy-email-btn" style="width: 100%; justify-content: center; padding: 12px;">
+            Copy Email: mohanjothi2009@gmail.com
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti-canvas" style="position: fixed; inset: 0; pointer-events: none; z-index: 9998;"></canvas>
+
+  <!-- Global Toast Notice -->
+  <div id="global-toast" class="toast-notice">
+    <span class="toast-dot"></span>
+    <span id="toast-text"></span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/visitor-tracker.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
